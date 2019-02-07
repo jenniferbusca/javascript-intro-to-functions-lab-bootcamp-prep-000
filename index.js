@@ -15,13 +15,10 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) 
-if string === string.toLowerCase
+if string === string.toLowerCase()
 return "I can't hear you!" 
-else
-     ReferenceError: sayHiToGrandma is not defined
-      at Context.<anonymous> (test/index-test.js:40:5)
-
-  5) sayHiToGrandma(string) returns "YES INDEED!" if `string` is uppercase:
+else string === string.toUpperCase()
+return "YES INDEED!" if `string` is uppercase:
      ReferenceError: sayHiToGrandma is not defined
       at Context.<anonymous> (test/index-test.js:44:5)
 
